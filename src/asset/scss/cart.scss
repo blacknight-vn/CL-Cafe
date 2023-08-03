@@ -1,0 +1,264 @@
+.cart{
+
+    padding: 0 100px;
+        
+    .content_1{
+        margin-top: 40px;
+
+            
+            .wrap{
+                width: 100%;
+                border: 1px solid rgb(225, 217, 217);
+                overflow: scroll;
+                border-top: 0px;
+                border-bottom: 0px;
+                margin-bottom: 26px;
+
+            .header{
+                width: 114%;
+                background: rgb(246, 246, 246);
+                color: rgb(75, 74, 74);
+                padding: 20px 40px;
+                display: flex;
+                font-size: 14px;
+                font-weight: 500;
+                justify-content: space-between;
+                border-top: 1px solid rgb(225, 217, 217);
+                border-bottom: 1px solid rgb(225, 217, 217);
+
+                .middle{
+                    width: 37%;
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                button{
+                    padding: 0;
+                    border: 0px;
+                    background: none;
+                    font-size: 15.6px;
+                    color: rgb(90, 88, 88);
+                }
+            }
+
+            .cart_each{
+
+                font-size: 16px;
+                font-weight: 500;
+                color: rgb(90, 88, 88);
+                padding: 15px 40px;
+                width: 114%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid rgb(225, 217, 217);
+
+                .img{
+                    position: relative;
+                    img{
+                        width: 80px;
+                        border: 1px solid rgb(225, 217, 217);
+                    }
+                    p{
+                        position: absolute;
+                        top: 25%;
+                        left: 127%;
+                    }
+                }
+
+                .middle{
+                    display: flex;
+                    align-items: center;
+                    width: 37%;
+                    justify-content: space-between;
+
+                    p{
+                        text-align: center;
+                    }
+
+                    .price{
+                        position: relative;
+                        left: -7.9%;
+                    }
+
+                    .discount{
+                        position: relative;
+                        left: -2.3%;
+                    }
+
+                    .quantity{
+                        text-align: center;
+                        border: 1px solid rgb(225, 217, 217);
+                        font-size: 15px;
+                        padding: 10px 22px;
+
+                        .content{
+                            margin: 0 15px;
+                        }
+
+                        button{
+                            padding: 0;
+                            border: 0px;
+                            background: none;
+                            font-size: 16.3px;
+                            color: rgb(90, 88, 88);
+                        }
+                    }
+                }
+
+                .total{
+                    position: relative;
+                    left: -3.7%;
+                }
+
+                .x{
+                    position: relative;
+                    left: -2.5%;
+                    font-size: 18px;
+                    padding: 0;
+                    border: 0px;
+                    background: none;
+                    color: rgb(90, 88, 88);
+                }
+            }
+        }
+
+        .note_header{
+            padding-left: 15px;
+            margin-bottom: 12px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .bill{
+            align-self: start;  
+            width: 100%;
+            padding: 0 15px;
+            display: flex;
+            justify-content: space-between;
+
+            .note{
+                width: 46%;
+
+                textarea{
+                    width: 100%;
+                    resize: none;
+                    border: 1px solid rgb(224, 217, 217);
+                    border-radius: 0.6rem;
+                    padding: 14px 29px;
+                    font-size: 18.4px;
+                    color: rgb(0, 0, 0);
+                }
+
+                textarea:focus{
+                    outline: none !important;
+                    border-color: rgb(223, 175, 19);
+                }
+
+                textarea::placeholder{
+                    color: rgb(160, 155, 155);
+                }
+            }
+        }
+
+        .proceed{
+            align-self: start;  
+            padding: 26px;
+            width: 370px;
+            border: 1px solid rgb(225, 217, 217);
+
+            .cost_total{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                font-size: 15.7px;
+                font-weight: 500;
+                padding-bottom: 23px;
+                border-bottom: 1px solid rgb(225, 217, 217);
+            }
+
+            .calculate{
+                padding-top: 25px;
+                font-weight: 500;
+                margin-bottom: 16px;
+            }
+
+            input{
+                width: 100%;
+                padding: 15px 42px;
+                border: 1px solid rgb(225, 217, 217);
+                margin-bottom: 42px;
+            }
+
+            input::placeholder{
+                font-size: 14px;
+            }
+
+            input:focus{
+                outline: none !important;
+            }
+
+            .total{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                font-size: 17.4px;
+                font-weight: 500;
+                margin-bottom: 25px;
+            }
+
+            button{
+                background: black;
+                border: 0px;
+                font-size: 14px;
+                font-weight: 500;
+                color: white;
+                width: 100%;
+                text-align: center;
+                padding: 18.7px 0;
+            }
+        }
+    }
+
+
+
+    .content_2{
+        img{
+            display: block;
+            width: 370px;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 40px;
+        }
+
+        h1{
+            font-size: 22px;
+            font-weight: 500;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        a{
+            font-size: 14px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            padding: 10px 0;
+            background-color: rgb(255, 168, 0);
+            border-radius: 1.8rem;
+            display: block;
+            width: 190px;
+            font-weight: 500;
+            text-align: center;
+            margin: auto;
+
+            i{
+                font-size: 12px;
+                margin-right: 7px;
+            }
+        }
+
+        a:hover{
+            background: black;
+        }
+    }
+}

@@ -1,0 +1,99 @@
+.id{
+    margin-top: 47px;
+    padding: 0 110px;
+    display: flex;
+
+    img{
+        box-sizing: content-box;
+        width: 480px;
+        padding: 60px;
+        border: 1px solid rgb(225, 217, 217);
+        margin-right: 70px;
+    }
+    .content-2{
+
+        .fa-star{
+            color: rgb(255, 168, 0)
+        }
+
+        .name{
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            font-weight: 400;
+            margin-bottom: 8px;
+        }
+
+        h1{
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+
+        .review{
+            margin-bottom: 30px;
+
+            .last{
+                margin-right: 8px;
+            }
+
+            span{
+                font-size: 13px;
+                font-weight: 400;
+            }
+        }
+
+        .price{
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 32px;
+        }
+
+        .stock{
+            font-size: 0.875rem;
+            margin-bottom: 30px;
+            color: rgb(107, 114, 128);
+            
+            span{
+                display: inline-block;
+                margin-left: 5px;
+                font-size: 1.5rem;
+                color: black;
+            }
+        }
+
+        .des{
+            font-size: 0.875rem;
+            line-height: 24px;
+            margin-bottom: 30px;
+            color: rgb(107, 114, 128);
+        }
+
+        .counter{
+            display: inline-block;
+            padding: 16px 24px;
+            border: 1px solid rgb(225, 217, 217);
+            margin-right: 10px;
+
+            span{
+                margin: 0 16px;
+            }
+
+            button{
+                font-size: 15px;
+                padding: 0;
+                border: 0;
+                background: white;
+            }
+        }
+        
+        .add{
+            color: white;
+            background: black;
+            font-size: 15px;
+            font-weight: 500;
+            border: 0;
+            padding: 17px 58px;
+
+        }
+    }
+}

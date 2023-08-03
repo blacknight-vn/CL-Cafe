@@ -1,0 +1,106 @@
+.product{
+    padding: 30px 100px;
+
+    h1{
+        margin-bottom: 20px;
+        padding-left: 15px;
+    }
+
+    .list{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+
+        .product_each{
+            display: block;
+            width: 22%;
+            height: 510px;
+            margin: 0 15px 28px 15px;
+            padding: 32px 33px 0px 33px;
+            background-color: white;
+            position: relative;
+            box-shadow: 1px 1px 8px 1px rgb(242, 242, 242);
+            overflow: hidden;
+
+            img{
+                width: 100%;
+                margin-bottom: 45px;
+                transition: width 0.3s;
+            }
+
+            .hover_1{
+                position: absolute;
+                top: 18%;
+                left: 110%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                width: 36px;
+                transition: 0.4s;
+
+                span{
+                    display: block;
+                    background: rgb(238, 238, 238);
+                    margin-bottom: 12px;
+                    width: 100%;
+                    border-radius: 20%;
+
+                    i{
+                        display: block;
+                        text-align: center;
+                        padding: 10px 2px;
+                    }
+                }
+            }
+
+            .wrap{
+                position: absolute;
+                top: 57%;
+                width: 74%;
+                left: 13%;
+
+                div{
+                    margin-bottom: 14.3px;
+                    font-size: 14.7px;
+                    line-height: 19.4px;
+                }
+
+                .star{
+                    .fa-star{
+                        color: rgb(255, 168, 0)
+                    }
+                }
+            }
+
+            .hover_2{
+                background: rgb(234, 179, 8);
+                font-size: 18.3px;
+                padding: 8.5px 17px;
+                border-radius: 0.5rem;
+                width: 82%;
+                position: absolute;
+                top: 106%;
+                left: 9%;
+                transition: 0.4s;
+                i{
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        .product_each:hover{
+            img{
+                width: 108%;
+            }
+
+            .hover_1{
+                left: 82%;
+            }
+
+            .hover_2{
+                top: 85%;
+            }
+        }
+    }
+}
+
